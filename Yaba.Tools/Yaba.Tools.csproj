@@ -4,6 +4,21 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Version>0.1.0</Version>
     <Authors>Yaba Project</Authors>
+    <RepositoryUrl>https://github.com/Titowisk/Yaba.Tools</RepositoryUrl>
+    <PackageReleaseNotes>Publishing my first package</PackageReleaseNotes>
+    <Description>This class library provides tools necessary in the Yaba Project</Description>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>license.txt</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/Titowisk/Yaba.Tools</PackageProjectUrl>
+    <PackageTags>tools utilities</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\license.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
