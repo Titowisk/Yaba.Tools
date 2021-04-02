@@ -18,7 +18,7 @@ namespace Tests.ValidationsTest
                 Validate.NotNull(nullObject);
             };
 
-            act.Should().Throw<ArgumentException>().WithMessage("Object cannot be null");
+            act.Should().Throw<ArgumentException>().WithMessage("Objectt cannot be null");
         }
 
         [Fact]
