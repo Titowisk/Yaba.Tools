@@ -15,4 +15,5 @@ jobs:
     steps:
       - name: test package
       - uses: actions/checkout@v2
+      - name: test package
       - run: dotnet test --configuration Release
